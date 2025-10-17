@@ -62,6 +62,7 @@ select {
 
 .all-cities {
   font-size: 14px;
+  display: block;
 }
 
 .all-cities a {

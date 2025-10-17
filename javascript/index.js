@@ -15,7 +15,7 @@ function updateCity(event) {
             <div class="time">${cityTime.format(
               "h:mm:ss [<small>]A[</small>]"
             )}</div>
-    </div>`; 
+    </div>`;
 }
 
 function updateTime() {
@@ -27,9 +27,9 @@ function updateTime() {
     let losAngelesTime = moment().tz("America/Los_Angeles");
 
     losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do, YYYY");
-    losAngelesTimeElement.innerHTML = `${losAngelesTime.format(
+    losAngelesTimeElement.innerHTML = losAngelesTime.format(
       "h:mm:ss [<small>]A[</small>]"
-    )}`;
+    );
   }
 
   // Sydney
@@ -40,9 +40,9 @@ function updateTime() {
     let sydneyTime = moment().tz("Australia/Sydney");
 
     sydneyDateElement.innerHTML = sydneyTime.format("MMMM Do, YYYY");
-    sydneyTimeElement.innerHTML = `${sydneyTime.format(
+    sydneyTimeElement.innerHTML = sydneyTime.format(
       "h:mm:ss [<small>]A[</small>]"
-    )}`;
+    );
   }
 
   // Paris
@@ -53,9 +53,9 @@ function updateTime() {
     let parisTime = moment().tz("Europe/Paris");
 
     parisDateElement.innerHTML = parisTime.format("MMMM Do, YYYY");
-    parisTimeElement.innerHTML = `${parisTime.format(
+    parisTimeElement.innerHTML = parisTime.format(
       "h:mm:ss [<small>]A[</small>]"
-    )}`;
+    );
   }
 
   // Tokyo
@@ -66,9 +66,9 @@ function updateTime() {
     let tokyoTime = moment().tz("Asia/Tokyo");
 
     tokyoDateElement.innerHTML = tokyoTime.format("MMMM Do, YYYY");
-    tokyoTimeElement.innerHTML = `${tokyoTime.format(
+    tokyoTimeElement.innerHTML = tokyoTime.format(
       "h:mm:ss [<small>]A[</small>]"
-    )}`;
+    );
   }
 }
 
