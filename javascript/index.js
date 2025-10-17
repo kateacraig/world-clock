@@ -7,7 +7,7 @@ setInterval(function () {
 
   losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do, YYYY");
   losAngelesTimeElement.innerHTML = `${losAngelesTime.format(
-    "h:m:s [<small>]A[</small>]"
+    "h:mm:ss [<small>]A[</small>]"
   )}`;
 }, 1000);
 
@@ -20,7 +20,7 @@ setInterval(function () {
 
   sydneyDateElement.innerHTML = sydneyTime.format("MMMM Do, YYYY");
   sydneyTimeElement.innerHTML = `${sydneyTime.format(
-    "h:m:s [<small>]A[</small>]"
+    "h:mm:ss [<small>]A[</small>]"
   )}`;
 }, 1000);
 
@@ -33,7 +33,7 @@ setInterval(function () {
 
   parisDateElement.innerHTML = parisTime.format("MMMM Do, YYYY");
   parisTimeElement.innerHTML = `${parisTime.format(
-    "h:m:s [<small>]A[</small>]"
+    "h:mm:ss [<small>]A[</small>]"
   )}`;
 }, 1000);
 
@@ -46,6 +46,6 @@ setInterval(function () {
 
   tokyoDateElement.innerHTML = tokyoTime.format("MMMM Do, YYYY");
   tokyoTimeElement.innerHTML = `${tokyoTime.format(
-    "h:m:s [<small>]A[</small>]"
+    "h:mm:ss [<small>]A[</small>]"
   )}`;
 }, 1000);
